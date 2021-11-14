@@ -193,7 +193,7 @@ async def bot_info(bot, message):
     buttons = [
         [
             InlineKeyboardButton('Update Channel', url='https://t.me/KING_OF_THE_CARTOONS_CHANNEL'),
-            InlineKeyboardButton('Source Code', url='https://t.me/KOT_LINKS_TEAM')
+            InlineKeyboardButton('Source Code', url='https://t.me/KOT_SOURCE_CODE')
         ]
         ]
-    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/KOT_BOTS'>Click here</a>\nUpdate Channel : <a href='https://t.me/KOT_BOTS'>KOT Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/KOT_SOURCE_CODE'>Click here</a>\nUpdate Channel : <a href='https://t.me/KOT_BOTS'>KOT Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
