@@ -273,10 +273,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [
                 [
                     InlineKeyboardButton('Update Channel', url='https://t.me/KOT_BOTS'),
-                    InlineKeyboardButton('Source Code', url='https://t.me/KOT_LINKS_TEAM')
+                    InlineKeyboardButton('Source Code', url='https://t.me/KOT_SOURCE_CODE')
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/KOT_FREE_DE_LA_HOYA_OFF'>KOT</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/KOT_LINKS_TEAM'>Click here</a>\nUpdate Channel : <a href='https://t.me/KOT_BOTS'>KOT Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Developer : <a href='https://t.me/KOT_FREE_DE_LA_HOYA_OFF'>KOT</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/KOT_SOURCE_CODE'>Click here</a>\nUpdate Channel : <a href='https://t.me/KOT_BOTS'>KOT Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
