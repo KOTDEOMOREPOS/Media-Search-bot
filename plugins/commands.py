@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Bots', url='https://t.me/KOT_BOTS')
+                        InlineKeyboardButton('MOVIES REQUEST', url='https://t.me/KDASHCHAT')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -100,7 +100,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Other Bots", url="https://t.me/KOT_BOTS")
+                        InlineKeyboardButton("MAIN CHANNEL", url="https://t.me/KDASH_LINKS")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
@@ -192,8 +192,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/KING_OF_THE_CARTOONS_CHANNEL'),
-            InlineKeyboardButton('Source Code', url='https://t.me/KOT_LINKS_TEAM')
+            InlineKeyboardButton('MAIN CHANNEL', url='https://t.me/KDASH_LINKS'),
+            InlineKeyboardButton('MOVIE REQUEST', url='https://t.me/KDASHCHAT')
         ]
         ]
     await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/KOT_BOTS'>Click here</a>\nUpdate Channel : <a href='https://t.me/KOT_BOTS'>KOT Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
