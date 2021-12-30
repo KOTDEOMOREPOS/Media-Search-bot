@@ -272,11 +272,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/KOT_BOTS'),
-                    InlineKeyboardButton('Source Code', url='https://t.me/KOT_SOURCE_CODE')
+                    InlineKeyboardButton('MAIN CHANNEL', url='https://t.me/KDASH_LINKS'),
+                    InlineKeyboardButton('MOVIES REQUEST', url='https://t.me/KDASHCHAT')
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/KOT_FREE_DE_LA_HOYA_OFF'>KOT</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/KOT_SOURCE_CODE'>Click here</a>\nUpdate Channel : <a href='https://t.me/KOT_BOTS'>KOT Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Developer : <a href='https://t.me/KOT_FREE_DE_LA_HOYA_OFF'>Kᴏᴛ Dᴇᴠᴇʟᴏᴘᴇʀ</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/KOT_SOURCE_CODE'>Click here</a>\nUpdate Channel : <a href='https://t.me/KOT_BOTS'>KOT Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -298,7 +298,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = [
                     [
                         InlineKeyboardButton('More Bots', url='https://t.me/KOT_BOTS'),
-                        InlineKeyboardButton('support group', url='https://t.me/KOT_REPORS')
+                        InlineKeyboardButton('support group', url='https://t.me/KOT_OFF_TOPIC')
                     ]
                     ]
                 
@@ -329,8 +329,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/KOT_BOTS'),
-                        InlineKeyboardButton('support group', url='https://t.me/KOT_REPORS')
+                        InlineKeyboardButton('MAIN CHANNEL', url='https://t.me/KDASH_LINKS'),
+                        InlineKeyboardButton('SUPPORT', url='https://t.me/KDASHCHAT')
                     ]
                     ]
                 
